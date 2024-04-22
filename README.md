@@ -29,6 +29,9 @@ Implementation Details:
 
 The program should accept command-line arguments specifying the input file containing the initial state, the output file to write the solution or "NO Solution found," and optional arguments for selecting the search algorithm and enabling/disabling logging.
 The search algorithms should be implemented as methods of a Searchalgo class, which should handle the logic for each algorithm.
+•	Implemented various search algorithms like A* with Manhattan distance heuristic, DFS, BFS, DLS, IDS, and UCS to solve the 8-puzzle problem. 
+•	The goal is to find the most efficient sequence of moves to reach the goal state from the starting configuration, considering factors like optimality, memory usage, and computational resources. 
+•	The program returns the solution path or "None" if no solution exists, alongside statistics (nodes expanded, generated, fringe size). Additionally, it can log detailed information for further analysis and debugging.
 The program should log various information, including nodes popped, nodes expanded, nodes generated, maximum fringe size, solution depth, and cost.
 Instructions for Running the Program:
 
